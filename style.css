@@ -1,0 +1,55 @@
+body {
+    background: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 40px;
+    background: url(Images/6aef0d2269466e1c9b192f92e8d3c982\ \(1\).jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  }
+
+  #clock {
+    font-size: 42px;
+    margin-bottom: 10px;
+  }
+
+  #date {
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+
+  #birthday {
+    font-size: 32px;
+    color: #ff0101;
+    display: none;
+    margin-bottom: 20px;
+  }
+
+  .calendar {
+    display: none;
+    grid-template-columns: repeat(7, 50px);
+    gap: 8px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .day {
+    padding: 10px;
+    border-radius: 8px;
+    background: #222;
+  }
+
+  .marked {
+    background: #ff1493;
+    font-weight: bold;
+  }
+
+  #event {
+    display: none;
+    margin-top: 15px;
+    font-size: 22px;
+    color: #00ffcc;
+  }
